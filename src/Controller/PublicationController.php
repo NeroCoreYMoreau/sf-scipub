@@ -25,7 +25,7 @@ class PublicationController extends AbstractController
     }
 
     /**
-     * @Route("/publish", name="list")
+     * @Route("/publish", name="publish")
      */
     public function publish(): Response
     {
